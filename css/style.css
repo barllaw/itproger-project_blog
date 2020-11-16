@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#form-signin{
+    width: 30%;
+    margin: 50px auto;
+}
+#form-signin input{
+    margin: 10px 0;
+}
+.user, .mess{
+    background: #b2ddee99;
+    padding: 10px 20px;
+    color: #335e71;
+    margin: 10px;
+}
+.user p{
+    margin: 0;
+}
+.user p button{
+    background: #ec465d;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 15px;
+}
+h4#adresat{
+    text-align: center;
+}
+.main-wrap{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.mess_empty{
+    background: #eedeb299;
+    padding: 10px 20px;
+    color: #677133;
+    margin: 10px;
+}
